@@ -10,218 +10,234 @@ Template: twentytwelve
 @import url("http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco");
 
 
-@font-face { 
-	font-family: Cedarville;
-	src: url("http://era1x.com/wp-content/fonts/cedarville.ttf");
+@font-face {
+  font-family: Cedarville;
+  src: url("http://era1x.com/wp-content/fonts/cedarville.ttf");
 }
 
 @font-face {
-	font-family: TheanoDidotRegular;
-	src: url("http://era1x.com/wp-content/fonts/TheanoDidot-Regular-webfont.ttf");
-	font-weight: normal;
-	font-style: normal;
+  font-family: TheanoDidotRegular;
+  src: url("http://era1x.com/wp-content/fonts/TheanoDidot-Regular-webfont.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-	font-family: 'Sue Ellen Francisco', cursive !important;
+  /*font-family: 'Sue Ellen Francisco', cursive !important;*/
 }
 
 .site {
-	background: transparent;
+  background: transparent;
+  box-shadow: 0 0px 0px rgba(100, 100, 100, 0.3) !important;
 }
 
 .site-header {
-	height: 300px;
-}
-
-img.header-image {
-	margin-left: 560px;
-	position: absolute;
-	z-index: 99;
+  height: 300px;
 }
 
 .FA_overall_container_classic.light, .FA_overall_container_smoke{
-	margin-bottom: 20px !important;
-	border: 0px !important;
+  margin-bottom: 20px !important;
+  border: 0px !important;
 }
 
 .FA_wrap {
-	background: none !important;
+  background: none !important;
 }
 
 .FA_wrap a, .FA_wrap a:link, .FA_wrap a:visited {
-	background-color: #FFF;
-	text-transform: uppercase;
-	color: #000 !important;
+  background-color: #FFF;
+  text-transform: uppercase;
+  color: #000 !important;
 }
 
 #main {
-	background-color: #FFF;
-	padding-left: 20px;
+  background-color: #FFF;
+  padding-left: 20px;
 }
 
 .entry-title {
-	font-family: "Cedarville", Helvetica, Arial, sans-serif;
-	font-size: 35px !important;
+  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+  font-size: 16px !important;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+.entry-header .entry-title a {
+  color: black !important;
 }
 
 .entry-content p, .entry-summary p, .comments-area, .mu_register p {
-	font-family: "TheanoDidotRegular", Helvetica, Arial, sans-serif;
-	font-size: 16px;
+  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+  font-size: 16px;
 }
 
 .entry-header .comments-link {
-	font-size: 20px !important;
+  font-size: 20px !important;
 }
 
 a:link {
-	color: #707070 !important;
-	text-decoration: none;
+  color: #707070 !important;
+  text-decoration: none;
 }
 
 .entry-content a:link {
-	border-bottom: 1px dashed rgba(100, 100, 100, 0.6);
+  border-bottom: 1px dashed rgba(100, 100, 100, 0.6);
 }
 
 a:visited {
-	color: #707070 !important;
+  color: #707070 !important;
 }
 
 a:hover {
-	color: #F9C !important;
-	
+  color: #F9C !important;
+
 }
 
-.menu-paginas-container 	{
-    background-color: #F8E0E6;
+.menu-paginas-container   {
+    background-color: #FFF;
     height: 47px;
     width: 100%;
     top: 0px;
     left: 0px;
     position: fixed;
     z-index: 999;
+    font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
 }
 
 .main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
-	width: 1080px;
-	border-bottom: 0;
-	border-top: 0;
-	margin-right: auto;
-	margin-left: auto;
+  width: 1080px;
+  border-bottom: 0;
+  border-top: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .item-menu-odd {
-	/*background-color: #000;*/
+  /*background-color: #000;*/
 }
 
 .item-menu-even {
-	background-color: #D8D8D8;
+  background-color: #D8D8D8;
 }
 .item-menu-cinza {
-	background-color: #D8D8D8;
+  background-color: #D8D8D8;
 }
 
 .main-navigation li {
-	margin: 0 0 0 0;
-	padding: 0 10px 0 15px;
+  margin: 0 0 0 0;
+  padding: 0 10px 0 15px;
 
 }
 
 .main-navigation li a {
-	line-height: 47px;
+  line-height: 47px;
+  font-size: 14px;
 }
 
 ul#meta-list {
-	list-style-type: square;
+  list-style-type: square;
 }
 li#meta-list {
-	list-style-type: square;
+  list-style-type: square;
 }
 #meta-list li {
-	display: inline;
-	list-style-type: square;
-	padding-right: 20px;
+  display: inline;
+  list-style-type: square;
+  padding-right: 20px;
 }
 
 .entry-meta {
-	margin-bottom: 5px;
+  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+  margin-bottom: 9px;
+  text-align: center;
 }
 
 
 .entry-content a:hover {
-	border-bottom: 1px dashed rgba(100, 100, 100, 0.6);
+  border-bottom: 1px dashed rgba(100, 100, 100, 0.6);
 }
 
 .main-navigation a {
-	font-size: 19px;
+  font-size: 19px;
 }
 
 .zilla-social {
-	clear: both;
-	width: 960px;
-	top: 0px;
-	float: right;
-    position: fixed;
-    z-index: 999;
+  clear: both;
+  width: 960px;
+  top: 0px;
+  float: right;
+  position: fixed;
+  z-index: 999;
 }
-
+/*
 .social-facebook {
-	background:url('./images/face.png') no-repeat; 
-	height:100px; 
+  background:url('./images/face.png') no-repeat;
+  height:100px;
 }
 
 .social-twitter {
-	background:url('./images/twitter.png') no-repeat; 
-	height:100px; 
+  background:url('./images/twitter.png') no-repeat;
+  height:100px;
 }
 
 .social-mais {
-	background:url('./images/mais.png') no-repeat; 
-	height:100px; 
+  background:url('./images/mais.png') no-repeat;
+  height:100px;
 }
 
 .social-twitter a, .social-twitter a:link, .social-twitter a:visited,
 .social-facebook a, .social-facebook a:link, .social-facebook a:visited,
 .social-mais a, .social-mais a:link, .social-mais a:visited  {
-	color: transparent !important;
+  color: transparent !important;
 }
+*/
 
 .comments-link {
-	font-family: "TheanoDidotRegular", Helvetica, Arial, sans-serif;
+  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
 }
 
 footer.entry-meta {
-	font-family: "TheanoDidotRegular", Helvetica, Arial, sans-serif;
-	font-size: 15px;
+  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+  font-size: 15px;
 }
 
 .nav-single {
-	font-size: 20px !important;
+  font-size: 20px !important;
 }
 
 img {
-	border-radius: 0px !important;
-	box-shadow: 0 0 0 !important;
+  border-radius: 0px !important;
+  box-shadow: 0 0 0 !important;
+}
+
+.widget-area .widget{
+  margin-bottom: 0px;
 }
 
 .widget {
-	font-family: 'Sue Ellen Francisco', cursive;
+  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+  font-size: 16px !important;
 }
 
 .widget-title {
-	font-size: 20px;
+  /*font-size: 20px;*/
 }
 
 .widget a {
-	font-size: 20px;
-	text-decoration: none;
-	letter-spacing: 2px;
-	border-bottom: 0;
+  /*font-size: 20px;*/
+  text-decoration: none;
+  /*letter-spacing: 2px;*/
+  border-bottom: 0;
 }
 
 .widget li {
-	font-size: 18px !important;
-	list-style-type: disc;
+  /*font-size: 16px !important;*/
+  list-style-type: none;
 }
 
-
+.widget_categories li {
+display: inline-block;
+width: 45%;
+padding-right: 10px;
+}
