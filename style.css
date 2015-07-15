@@ -590,7 +590,7 @@ a:hover {
 .site-header {
   padding: 24px 0;
   padding: 1.714285714rem 0;
-  height: 300px;
+  height: 280px;
 }
 .site-header h1,
 .site-header h2 {
@@ -749,7 +749,7 @@ section[role="banner"] {
   color: #9f9f9f;
 }
 .widget-area #s {
-  width: 53.66666666666%; /* define a width to avoid dropping a wider submit button */
+  width: 76.4%; /* define a width to avoid dropping a wider submit button */
 }
 
 /* Footer */
