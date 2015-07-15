@@ -29,7 +29,7 @@
 				</ul>
 			</div>
 
-			<?php the_post_thumbnail(); ?>
+			<?php the_post_thumbnail(array(800,450)); ?>
 
 			<?php if ( is_single() ) : ?>
 				<h1 class="entry-title"><?php the_title(); ?></h1>
