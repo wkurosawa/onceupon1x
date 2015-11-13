@@ -939,14 +939,14 @@ article.sticky .featured-post {
   color: #9f9f9f;
 }
 
-
+/*
 .entry-content a:link {
   border-bottom: 1px dashed rgba(100, 100, 100, 0.6);
 }
 
 .entry-content a:hover {
   border-bottom: 1px dashed rgba(100, 100, 100, 0.6);
-}
+}*/
 
 .entry-content ol,
 .comment-content ol,
