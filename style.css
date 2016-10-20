@@ -68,8 +68,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 
-@import url("http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco");
+/*@import url("http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco");*/
 
+@import url("https://fonts.googleapis.com/css?family=Lato:400,300,700");
+
+/*
 @font-face {
   font-family: Cedarville;
   src: url("http://era1x.com/wp-content/fonts/cedarville.ttf");
@@ -81,7 +84,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-weight: normal;
   font-style: normal;
 }
-
+*/
 
 body {
   line-height: 1;
@@ -530,12 +533,13 @@ html {
 body {
   font-size: 14px;
   font-size: 1rem;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Lato" , Helvetica, Arial, sans-serif;
+  /*font-family: Helvetica, Arial, sans-serif;*/
   text-rendering: optimizeLegibility;
   color: #444;
 }
 body.custom-font-enabled {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
 }
 a {
   outline: none;
@@ -673,7 +677,7 @@ a:hover {
   left: 0px;
   position: fixed;
   z-index: 999;
-  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+/*  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;*/
 }
 
 .item-menu-even {
@@ -691,7 +695,7 @@ section[role="banner"] {
 
 /* Sidebar */
 .widget {
-  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+/*  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;*/
   font-size: 16px !important;
   font-size: 1.142857143rem !important;
 }
@@ -793,7 +797,7 @@ li#meta-list {
 
 .entry-meta {
   clear: both;
-  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+/*  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;*/
   margin-bottom: 9px;
   margin-bottom: 0.375rem;
   text-align: center;
@@ -809,7 +813,7 @@ li#meta-list {
 }
 
 .entry-title {
-  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+/*  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;*/
   font-size: 16px !important;
   font-size: 1.142857143rem;
   text-align: center;
@@ -843,7 +847,7 @@ li#meta-list {
 }
 
 .comments-link {
-  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+/*  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;*/
 }
 
 .comments-link a,
@@ -927,11 +931,12 @@ article.sticky .featured-post {
 .entry-summary p,
 .comment-content p,
 .mu_register p {
-  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
-  font-size: 16px;
-  font-size: 1.142857143rem;
+/*  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;*/
+  font-size: 13px;
+  /*font-size: 1.142857143rem;*/
   margin: 0 0;
   line-height: 1.25;
+  letter-spacing: 0.78px;
 }
 
 .entry-content a:visited,
@@ -1116,7 +1121,7 @@ img.aligncenter,
 }
 
 footer.entry-meta {
-  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+/*  font-family: "TheanoDidotRegular", Georgia, Utopia, 'Palatino Linotype', Palatino, serif;*/
   margin-top: 24px;
   margin-top: 1.714285714rem;
   font-size: 15px;
