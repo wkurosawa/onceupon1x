@@ -1,5 +1,7 @@
 <?php
 
+$content_width = 850;
+
 // Step 2: Place code below into your theme's functions.php file
 if ( include( 'custom-widgets.php' ) ){
     add_action( "widgets_init", "load_custom_widgets" );
